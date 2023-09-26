@@ -1,0 +1,8 @@
+{
+    "prettier.singleQuote": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "editor.formatOnSave": true,
+    "prettier.configPath": "./scripts/.prettierrc",
+    "px-to-rem.px-per-rem": 16
+}
