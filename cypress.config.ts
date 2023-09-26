@@ -42,7 +42,7 @@ module.exports = defineConfig({
     "reporterOptions": {
       "reportDir": "cypress/reports",
       "charts": true,
-      "reportPageTitle": "NU-AMBER-LITE",
+      "reportPageTitle": "DEMO-UNITY",
       "embeddedScreenshots": true,
       "inlineAssets": true
     },
