@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+# Run dbus to eliminate some error noise in the output of cypress
+mkdir -p /var/run/dbus
+dbus-daemon --config-file=/usr/share/dbus-1/system.conf --print-address
+
+# run cypress with options passed to docker
+exec cypress run "$@"
