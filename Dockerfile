@@ -1,4 +1,4 @@
-FROM cypress/included:10.6.0
+FROM cypress/included:10.11.0
 
 WORKDIR /tests
 
